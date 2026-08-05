@@ -1,0 +1,8 @@
+{
+  "name": "Remix OmniWealth AI",
+  "description": "Full-stack financial dashboard web application with account aggregation, sector risk heatmaps, interactive manual spreadsheet ledger, and one-click portfolio optimization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

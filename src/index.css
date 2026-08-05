@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer components {
+  /* ================== DARK MODE GLASSMORPHIC OVERRIDES ================== */
+  
+  /* Target dark mode card backgrounds inside .dark */
+  .dark .bg-slate-900\/80, .dark .bg-slate-950\/60, .dark .bg-slate-900\/90, .dark .bg-slate-950\/80, .dark .bg-slate-950\/70, .dark .bg-slate-900\/40, .dark .bg-slate-900\/60, .dark .bg-slate-950, .dark .bg-slate-900, .dark .bg-slate-800 {
+    background-color: rgba(15, 23, 42, 0.8) !important;
+    backdrop-filter: blur(24px) !important;
+    -webkit-backdrop-filter: blur(24px) !important;
+    border-radius: 16px !important;
+  }
+
+  /* Set main app background for dark mode */
+  .dark .min-h-screen {
+    background-color: #0B0F19 !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+  
+  /* Smooth subtle borders in dark mode */
+  .dark .border, .dark .border-slate-800, .dark .border-slate-700, .dark .border-slate-200 {
+    border-color: #1e293b !important;
+  }
+
+  .dark button.bg-slate-800 {
+    backdrop-filter: none !important;
+  }
+
+  /* Primary text / metrics */
+  .dark .text-teal-500, .dark .text-teal-400, .dark .text-teal-600 {
+    color: #14b8a6 !important;
+    text-shadow: 0 0 12px rgba(20, 184, 166, 0.3) !important;
+  }
+
+  /* Action Buttons in dark mode */
+  .dark button.bg-teal-600, .dark button.bg-teal-500, .dark .bg-teal-500 {
+    background-color: #0d9488 !important;
+    color: white !important;
+    border: none !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+    backdrop-filter: none !important;
+  }
+  
+  .dark button.bg-teal-600:hover, .dark button.bg-teal-500:hover {
+    transform: scale(1.05) !important;
+    box-shadow: 0 4px 20px -2px rgba(20, 184, 166, 0.4) !important;
+  }
+
+  /* Ensure text colors are crisp in dark mode */
+  .dark .text-slate-400, .dark .text-slate-500, .dark .text-gray-600, .dark .text-muted-foreground {
+    color: #94A3B8 !important;
+  }
+
+  .dark .text-slate-900, .dark .text-slate-800, .dark .text-slate-700, .dark .text-white, .dark .text-slate-200, .dark .text-slate-100 {
+    color: #F8FAFC !important;
+    text-shadow: none !important;
+  }
+
+  /* Prevent small decorative dots/icons from getting glassmorphic overrides */
+  .dark .w-2, .dark .h-2, .dark .w-3, .dark .h-3, .dark .w-4, .dark .h-4, .dark .rounded-full {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  /* ================== LIGHT MODE OVERRIDES ================== */
+  
+  /* Only target actual card containers in light mode, as requested previously */
+  html:not(.dark) div.bg-white.rounded-2xl, html:not(.dark) div.bg-white.rounded-3xl, html:not(.dark) div.bg-white.shadow-sm, html:not(.dark) div.bg-white.border {
+    border-width: 0px !important;
+    box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05) !important;
+    border-radius: 20px !important;
+  }
+}
