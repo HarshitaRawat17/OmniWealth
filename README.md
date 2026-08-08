@@ -1,4 +1,4 @@
-# 🏛️ OmniWealth AI
+# OmniWealth AI
 > **Unified Multi-Asset Wealth Management & Look-Through Risk Intelligence Platform**  
 > *Built for SEBI Securities Market TechSprint*
 
@@ -7,20 +7,20 @@
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 Indian retail investors manage wealth across fragmented platforms (Zerodha, Groww, CAMS, Banks). This creates a critical **Hidden Over-concentration Risk**: investors buying direct stocks while holding mutual funds containing the same stocks silently breach safe exposure limits.
 
-## 🌟 Key Features
+##  Key Features
 
-* **🔗 Account Aggregator Consent Sync:** Connects equities, mutual funds, bonds, and gold via official SEBI/RBI Account Aggregator architecture.
-* **🔍 Look-Through Risk Engine:** Decodes underlying mutual fund holdings to calculate true consolidated sector exposure.
-* **⚠️ Sector Risk Heatmap:** Interactive risk visualization featuring a **SEBI-recommended 30% sector cap threshold line**.
-* **💡 Capital Loss Harvesting:** Identifies tax-saving opportunities (STCG 20% / LTCG 12.5%) on underperforming assets (`HARVESTABLE` badge).
-* **💬 "Ask Omni" AI Assistant:** Context-aware conversational financial literacy copilot.
+* ** Account Aggregator Consent Sync:** Connects equities, mutual funds, bonds, and gold via official SEBI/RBI Account Aggregator architecture.
+* ** Look-Through Risk Engine:** Decodes underlying mutual fund holdings to calculate true consolidated sector exposure.
+* ** Sector Risk Heatmap:** Interactive risk visualization featuring a **SEBI-recommended 30% sector cap threshold line**.
+* ** Capital Loss Harvesting:** Identifies tax-saving opportunities (STCG 20% / LTCG 12.5%) on underperforming assets (`HARVESTABLE` badge).
+* ** "Ask Omni" AI Assistant:** Context-aware conversational financial literacy copilot.
 
 ---
 
-## 🚀 Quick Start (Run Locally)
+##  Quick Start (Run Locally)
 
 ### Prerequisites
 * Node.js (v18 or higher)
