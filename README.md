@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🏛️ OmniWealth AI
+> **Unified Multi-Asset Wealth Management & Look-Through Risk Intelligence Platform**  
+> *Built for SEBI Securities Market TechSprint*
 
-# Run and deploy your AI Studio app
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel)](https://omni-wealth-two.vercel.app)
+[![Framework](https://img.shields.io/badge/React_/_Next.js-TypeScript-blue?style=for-the-badge&logo=typescript)](https://github.com/HarshitaRawat17/OmniWealth)
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/3bbb00b0-c67b-451a-bc55-61235f80e2f7
+## 📌 Problem Statement
+Indian retail investors manage wealth across fragmented platforms (Zerodha, Groww, CAMS, Banks). This creates a critical **Hidden Over-concentration Risk**: investors buying direct stocks while holding mutual funds containing the same stocks silently breach safe exposure limits.
 
-## Run Locally
+## 🌟 Key Features
 
-**Prerequisites:**  Node.js
+* **🔗 Account Aggregator Consent Sync:** Connects equities, mutual funds, bonds, and gold via official SEBI/RBI Account Aggregator architecture.
+* **🔍 Look-Through Risk Engine:** Decodes underlying mutual fund holdings to calculate true consolidated sector exposure.
+* **⚠️ Sector Risk Heatmap:** Interactive risk visualization featuring a **SEBI-recommended 30% sector cap threshold line**.
+* **💡 Capital Loss Harvesting:** Identifies tax-saving opportunities (STCG 20% / LTCG 12.5%) on underperforming assets (`HARVESTABLE` badge).
+* **💬 "Ask Omni" AI Assistant:** Context-aware conversational financial literacy copilot.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 Quick Start (Run Locally)
+
+### Prerequisites
+* Node.js (v18 or higher)
+* Gemini API Key
+
+### Installation & Setup
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/HarshitaRawat17/OmniWealth.git](https://github.com/HarshitaRawat17/OmniWealth.git)
+   cd OmniWealth
